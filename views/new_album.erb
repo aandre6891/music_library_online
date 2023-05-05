@@ -1,0 +1,31 @@
+<html>
+  <head></head>
+    <body>
+      <h1>Add a new Album:</h1>
+      <form method="POST" action="/albums"><br/>
+      
+      <div>
+        <label>Title:</label>
+        <input type="text" name="title" />
+      </div>
+      
+      <div>
+        <label>Release year:</label>
+        <input type="text" name="release_year" />
+      </div>
+      
+      <div>
+        <label>Artist:</label>
+        <select name="artist_id">
+        <option value="1">Pixies</option>
+        <option value="2">ABBA</option>
+        <option value="3">Taylor Swift</option>
+        <option value="">Nina Simone</option>
+        </select>
+      </div>
+      
+      <input type="submit" />
+      
+      </form>
+    </body>
+</html>
